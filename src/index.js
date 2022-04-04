@@ -1,8 +1,8 @@
 mapkit.init({
     authorizationCallback: function (done) {
-        fetch("/api/token")
-            .then((res) => res.text())
-            .then(done);
+done('eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjhUMzg0OEI5TEQifQ.eyJpc3MiOiJMVFFXVDg4NzNZIiwiaWF0IjoxNTM1NjQ1NDA4LCJleHAiOjI1MjgzMjM4Mzd9.lZLq9Dt7pCCtdSKttLRYZqZLgPW2MtirmCvDxr6mUzJN_aYh_lHQrdmLKWLofRWdjk3UnT71l_fsxzqYMSu4PQ'
+);
+
     },
     language: navigator.language || navigator.userLanguage,
 })
